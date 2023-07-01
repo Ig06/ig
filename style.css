@@ -1,0 +1,127 @@
+header {
+    background-color: #d2b48c;
+    padding: 20px;
+  }
+  
+  h1 {
+    color: beige;
+  }
+  
+  p {
+    color: #a0522d;
+    font-style: italic;
+  }
+  
+  hr {
+    border-color: beige;
+  }
+  
+  /* Estilização para os campos do formulário */
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    color: #8b4513;
+  }
+  
+  input[type="text"],
+  input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #d2b48c;
+    border-radius: 4px;
+  }
+  
+  select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #d2b48c;
+    border-radius: 4px;
+  }
+  
+  /* Estilização para os botões */
+  button {
+    margin-right: 10px;
+    padding: 10px 20px;
+    background-color: #8b4513;
+    color: beige;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"] {
+    background-color: #a0522d;
+  }
+  
+  button[type="reset"] {
+    background-color: #d2b48c;
+  }
+  
+  button:hover {
+    background-color: #a0522d;
+  }
+  
+  button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+     
+  header {
+    background-color: #d2b48c;
+    padding: 20px;
+  }
+  
+  h1 {
+    color: beige;
+    animation: moveText 2s infinite alternate;
+  }
+  
+  @keyframes moveText {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(50px);
+    }
+  }
+   
+  form{
+    margin: 5px; 
+    padding: 5px;
+  }
+
+  fieldset{
+margin: 15px;
+padding: 10px;
+  }
+
+  label{
+    align-items: center;
+    display:inline-block ;
+    margin-bottom: 15px;
+
+    
+ }
+
+ 
+ input{
+    width: 1%;
+    padding: 15px;
+    outline: none;
+    
+  
+} 
+
+
+    select{
+    padding: 1px;
+    margin: 1.5rem;
+    width: 50%
+  }   
+
+  
+  
